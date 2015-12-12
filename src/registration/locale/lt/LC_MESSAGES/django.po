@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-18 12:48+0200\n"
+"PO-Revision-Date: 2015-12-11 14:03+0200\n"
+"Last-Translator: <pi@p.lt>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Translated-Using: django-rosetta 0.7.6\n"
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:261
+msgid "(Re)Accept registrations of selected users"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:269
+msgid "Reject registrations of selected users"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:278
+msgid "Activate selected users forcibly"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:296
+msgid "Re-send acceptance emails to selected users"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:310
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:334
+msgid "Not available"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:312
+msgid "A summary of supplemental information"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/__init__.py:335
+msgid "Activation key"
+msgstr "Aktyvacijos raktas"
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:32
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:43
+msgid "Accept this registration"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:33
+msgid "Reject this registration"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:35
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:45
+msgid "Activate the associated user of this registration forcibly"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:38
+msgid "Re-accept this registration"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:40
+msgid "Activate the associated user of this registration"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:48
+msgid "Action"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:49
+msgid "Message"
+msgstr "Žinutė"
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:52
+msgid ""
+"You can use the value of this field in templates for acceptance, rejection "
+"and activation email with \"{{ message }}\". It is displayed in rejection "
+"email as \"Rejection reasons\" in default templates."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:83
+msgid "You cannot reject the registration which was accepted already."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/admin/forms.py:88
+msgid "You cannot activate the user whom registration was not accepted yet."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/forms.py:66
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: env/lib/python2.7/site-packages/registration/forms.py:69
+msgid "Password (again)"
+msgstr "Slaptažodis (pakartoti)"
+
+#: env/lib/python2.7/site-packages/registration/forms.py:81
+msgid "The two password fields didn't match."
+msgstr "Slaptažodžiai nesutampa."
+
+#: env/lib/python2.7/site-packages/registration/forms.py:99
+msgid "Username"
+msgstr "Prisijungimo vardas"
+
+#: env/lib/python2.7/site-packages/registration/forms.py:101
+msgid "This value must contain only letters, numbers and underscores."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/forms.py:107
+msgid "E-mail"
+msgstr "El. paštas"
+
+#: env/lib/python2.7/site-packages/registration/forms.py:110
+msgid "E-mail (again)"
+msgstr "El. paštas (pakartoti)"
+
+#: env/lib/python2.7/site-packages/registration/forms.py:122
+msgid "A user with that username already exists."
+msgstr "Vartotojas su tokiu prisijungimo vardu jau egzistuoja."
+
+#: env/lib/python2.7/site-packages/registration/forms.py:135
+msgid "The two email fields didn't match."
+msgstr "El. pašto adresai nesutampa."
+
+#: env/lib/python2.7/site-packages/registration/forms.py:146
+msgid "I have read and agree to the Terms of Service"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/forms.py:149
+msgid "You must agree to the terms to register"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/forms.py:162
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr "Šis el. pašto adresas jau užimtas. Įveskite kitą el. pašto adresą."
+
+#: env/lib/python2.7/site-packages/registration/forms.py:190
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/models.py:360
+msgid "Untreated yet"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/models.py:361
+msgid "Registration has accepted"
+msgstr "Registracija priimta"
+
+#: env/lib/python2.7/site-packages/registration/models.py:362
+msgid "Registration has rejected"
+msgstr "Registracija atšaukta"
+
+#: env/lib/python2.7/site-packages/registration/models.py:364
+msgid "user"
+msgstr "vartotojas"
+
+#: env/lib/python2.7/site-packages/registration/models.py:367
+#: env/lib/python2.7/site-packages/registration/models.py:439
+msgid "status"
+msgstr "būsena"
+
+#: env/lib/python2.7/site-packages/registration/models.py:370
+msgid "activation key"
+msgstr "aktyvacijos raktas"
+
+#: env/lib/python2.7/site-packages/registration/models.py:376
+#: env/lib/python2.7/site-packages/registration/supplements/base.py:49
+msgid "registration profile"
+msgstr "registracijos profilis"
+
+#: env/lib/python2.7/site-packages/registration/models.py:377
+msgid "registration profiles"
+msgstr "registracijos profiliai"
+
+#: env/lib/python2.7/site-packages/registration/models.py:436
+#: env/lib/python2.7/site-packages/registration/views.py:82
+msgid "Activation key has expired"
+msgstr "Aktyvacijos rakto galiojimas pasibaigė"
+
+#: env/lib/python2.7/site-packages/registration/supplements/default/models.py:13
+msgid "remarks"
+msgstr "komentarai"
+
+#: env/lib/python2.7/site-packages/registration/templates/admin/registration/registrationprofile/change_form.html:7
+#, python-format
+msgid ""
+"\n"
+"Inspect the registration of %(user)s\n"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/admin/registration/registrationprofile/change_form.html:14
+msgid "Please select an action and click the Save button on bottom."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/acceptance_email.txt:3
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:3
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_email.txt:3
+#: env/lib/python2.7/site-packages/registration/templates/registration/rejection_email.txt:3
+#, python-format
+msgid "Dear %(user)s,"
+msgstr "Mielas(-a)  %(user)s,"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/acceptance_email.txt:5
+#, python-format
+msgid "Your registration of %(site_name)s was accepted by inspector."
+msgstr ""
+"Jūsų registracija svetainėje %(site_name)s buvo patvirtinta "
+"administratoriaus."
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/acceptance_email.txt:7
+msgid ""
+"Please click the following url and set your account password to finish "
+"activation."
+msgstr ""
+"prašome paspausti nurodyta nuoroda ir susikurti savo paskyrai slaptažodį, "
+"jog užbaigti aktyvaciją."
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/acceptance_email.txt:11
+#, python-format
+msgid "The activation link above will be expired in %(expiration_days)s days."
+msgstr "Aktyvacijos nuoroda baigs galioti po %(expiration_days)s dienų."
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/acceptance_email_subject.txt:2
+#, python-format
+msgid "Your registration was accepted -- %(site_name)s"
+msgstr "Jūsų registracija priimta -- %(site_name)s"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_complete.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_complete.html:7
+msgid "Activation was complete"
+msgstr "Aktyvacija baigta"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_complete.html:11
+msgid "Your account was activated"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:5
+#, python-format
+msgid "Your account of %(site_name)s was activated by inspector"
+msgstr "Jūsų paskyra svetainėje %(site_name)s aktyvuota administratoriaus"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:7
+msgid ""
+"The password of your account was generated automatically and displayed "
+"below."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:8
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:19
+msgid "Please click the following url to login."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:9
+msgid ""
+"It is strongly recommended that you change your initial password to "
+"something more secure."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:11
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:21
+msgid "::Your account information::"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:12
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:22
+#, python-format
+msgid "USERNAME: %(user)s"
+msgstr "Prisijungimo vardas: %(user)s"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:13
+#, python-format
+msgid "PASSWORD: %(password)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email.txt:17
+#, python-format
+msgid "Your account of %(site_name)s was successfully activated"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_email_subject.txt:2
+#, python-format
+msgid "Your account was activated -- %(site_name)s"
+msgstr "Jūsų paskyra aktyvuota %(site_name)s"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_form.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_form.html:7
+msgid "Activate your account"
+msgstr "Aktyvuokite savo paskyrą"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_form.html:11
+msgid "Please fill the password to complete account activation"
+msgstr "Prašome įvesti slaptažodį, jog užbaigti paskyros aktyvaciją"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/activation_form.html:14
+msgid "Activate"
+msgstr "Aktyvuoti"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/login.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/login.html:7
+#: env/lib/python2.7/site-packages/registration/templates/registration/login.html:14
+msgid "Login"
+msgstr "Prisijungti"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/login.html:11
+msgid "Please fill your username and password to login"
+msgstr "Įveskite prisijungimo duomenis"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/logout.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/logout.html:7
+msgid "Logged out"
+msgstr "Atsijungta"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/logout.html:11
+msgid "You are logged out."
+msgstr "Jūs esate atsijungę"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_closed.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_closed.html:7
+msgid "Registration is closed"
+msgstr "Registracija uždaryta"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_closed.html:11
+msgid "I am afraid that registration is currently closed."
+msgstr "Deja, Jūsų registracija šiuo metu uždaryta"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_complete.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_complete.html:7
+msgid "Registration was complete"
+msgstr "Registracija baigta"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_complete.html:11
+msgid "Your registration was created successfully."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_complete.html:12
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_email.txt:6
+msgid "Please wait until the inspector verify your registration."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_complete.html:13
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_email.txt:7
+msgid "You will receive an acceptance or rejection email within several days."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_email.txt:4
+msgid "Your account registration was created successfully."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_email_subject.txt:2
+#, python-format
+msgid "Your registration was created -- %(site_name)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_form.html:5
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_form.html:7
+msgid "Registration"
+msgstr "Registracija"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_form.html:11
+msgid "Please fill the following fields to create your registration"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/registration_form.html:15
+msgid "Register"
+msgstr "Registruotis"
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/rejection_email.txt:5
+msgid "I am afraid that your account registration was rejected by inspector."
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/rejection_email.txt:8
+msgid "Rejection reasons:"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/templates/registration/rejection_email_subject.txt:2
+#, python-format
+msgid "Your registration was rejected -- %(site_name)s"
+msgstr ""
+
+#: env/lib/python2.7/site-packages/registration/views.py:84
+msgid "An invalid activation key has passed"
+msgstr ""
